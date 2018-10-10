@@ -1,4 +1,4 @@
 restart_computer:
-  local.cmd.run:
+  cmd.run:
     - tgt: data['id']
     - arg: reboot
